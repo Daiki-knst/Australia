@@ -365,7 +365,6 @@ nav ul li a:hover::after{
 	justify-content: center;
 	align-items: center;
   /*font-family: consolas;*/
-  backface-visibility: hidden;
 }
 .tourist-spot .container
 {
@@ -596,6 +595,7 @@ nav ul li a:hover::after{
 .animals .team-section{
   height: 550px;
   display: flex;
+  backface-visibility: hidden;/*スマホでカクカク動くのを止めるためのコード*/
 }
 
 .animals .animal{
