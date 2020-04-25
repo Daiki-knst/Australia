@@ -364,7 +364,8 @@ nav ul li a:hover::after{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*font-family: consolas;*/
+  /*font-family: consolas;*/
+  backface-visibility: hidden;
 }
 .tourist-spot .container
 {
